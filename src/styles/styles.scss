@@ -1,0 +1,41 @@
+$bg-light: #F5EBDC;
+$bg-dark: #efe2cf;
+$bright-red: #d62300;
+$dark-red: #502314;
+$orange: #FF8533;
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: $bg-light;
+
+    .App{
+        padding: 0;
+        margin: 0;
+        .Navbar-container{
+            padding: 1% 5%;
+            margin: 0;
+            border: 1px solid $dark-red;
+            // width: 100%;
+            max-height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            &__logo{
+                height: 3rem;
+            }
+            &__navegation{
+                padding: 0;
+                a{
+                    text-decoration: none;
+                    color: #502314;
+                    margin: 0 1rem;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
